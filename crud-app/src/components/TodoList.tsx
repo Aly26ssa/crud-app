@@ -4,9 +4,10 @@ import { TodoService } from '../todoService.ts';
 import { FaCheck, FaEdit } from 'react-icons/fa';
 import { GiCancel } from 'react-icons/gi';
 import { RiDeleteBin5Fill } from 'react-icons/ri';
+import { TodoForm } from './TodoForm.tsx';
 
 
-const TodoList = () => {
+export const TodoList = () => {
 
     const [todos, setTodos] = useState<TodoTypes[]>(TodoService.getTodos());
     const [editingTodoId, setEditingTodoId] = useState<number | null>(null);
@@ -47,7 +48,7 @@ const TodoList = () => {
     return (
         <div className="todoContainer">
             <div>
-                {/* Todo Component Here** */}
+                <TodoForm setTodos = {setTodos} />
             </div>
 
             {todos.map((todo) => (
@@ -78,6 +79,4 @@ const TodoList = () => {
             ))}
         </div>
     )
-}
-
-export default TodoList;
+};
