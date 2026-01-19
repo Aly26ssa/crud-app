@@ -13,7 +13,7 @@ export const TodoService = {
     // Add Todos
     addTodos: (text: string): TodoTypes => {
         const todos = TodoService.getTodos();
-        const newTodo: TodoTypes = { id: todos.length = 1, text, completed: false };
+        const newTodo: TodoTypes = { id: todos.length + 1, text, completed: false };
         const updateTodos = [...todos, newTodo];
         localStorage.setItem(LOCAL_STOARAGE_KEY, JSON.stringify(updateTodos));
         return newTodo;
