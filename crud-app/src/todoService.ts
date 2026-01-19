@@ -1,8 +1,8 @@
-import TodoTypes from "./todo";
+import type TodoTypes  from './todo.ts';
 
 const LOCAL_STOARAGE_KEY = 'todos';
 
-const TodoService = {
+export const TodoService = {
 
     // Get Todos
     getTodos: (): TodoTypes[] => {
@@ -34,6 +34,4 @@ const TodoService = {
         localStorage.setItem(LOCAL_STOARAGE_KEY, JSON.stringify(updateTodos));
     }
 
-};
-
-export default TodoService; 
+}; 
