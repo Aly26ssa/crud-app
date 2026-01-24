@@ -40,6 +40,10 @@
   display: flex;
 }
 
+.editText > button:nth-child(2) {
+  color: #a1eebd;
+}
+
 .editText > button:nth-child(3) {
   color: #ef4040;
 }
