@@ -24,12 +24,36 @@
   background: #F3F8FF;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  border-radius:50px ;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .inputForm input {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .inputForm input {
+    font-size: 1.2rem;
+  }
 }
 
 .inputForm input::placeholder {
   font-size: 1.5rem;
   color:rgba(229, 229, 229, 0.907)
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .inputForm input::placeholder {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .inputForm input::placeholder {
+    font-size: 1.2rem;
+  }
 }
 
 .inputForm button {
@@ -41,4 +65,16 @@
   font-weight: 500;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .inputForm button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .inputForm button {
+    font-size: 1rem;
+  }
 }
