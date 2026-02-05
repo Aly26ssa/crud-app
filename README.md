@@ -1,6 +1,6 @@
-# Todo CRUD Application
-
+Todo CRUD Application
 A simple and intuitive Todo application built with React and TypeScript, featuring full CRUD (Create, Read, Update, Delete) functionality with local storage persistence.
+Features
 
 ## Screenshots
 
@@ -15,14 +15,12 @@ A simple and intuitive Todo application built with React and TypeScript, featuri
 - 🎨 Clean and responsive UI
 - 🔒 Type-safe with TypeScript
 
-## Tech Stack
+Tech Stack
 
-- **React** - UI library
-- **TypeScript** - Type safety and better developer experience
-- **React Icons** - Icon library for UI elements
-- **localStorage** - Client-side data persistence
-
-*Add screenshots of your application here*
+React - UI library
+TypeScript - Type safety and better developer experience
+React Icons - Icon library for UI elements
+localStorage - Client-side data persistence
 
 ## Project Structure
 ```
@@ -77,4 +75,6 @@ npm run dev
 
 ## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
+Add a Todo: Type your task in the input field and click "Add Todo"
+Edit a Todo: Click the edit icon next to any todo, modify the text, and save or cancel
+Delete a Todo: Click the delete icon to remove a todo
