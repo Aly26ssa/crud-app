@@ -1,4 +1,5 @@
-Todo CRUD Application
+# Todo CRUD Application
+
 A simple and intuitive Todo application built with React and TypeScript, featuring full CRUD (Create, Read, Update, Delete) functionality with local storage persistence.
 
 ## Screenshots
@@ -14,12 +15,14 @@ A simple and intuitive Todo application built with React and TypeScript, featuri
 - 🎨 Clean and responsive UI
 - 🔒 Type-safe with TypeScript
 
-Tech Stack
+## Tech Stack
 
-React - UI library
-TypeScript - Type safety and better developer experience
-React Icons - Icon library for UI elements
-localStorage - Client-side data persistence
+- **React** - UI library
+- **TypeScript** - Type safety and better developer experience
+- **React Icons** - Icon library for UI elements
+- **localStorage** - Client-side data persistence
+
+*Add screenshots of your application here*
 
 ## Project Structure
 ```
