@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Aly26ssa/crud-app",
+  "homepage": "https://Aly26ssa.github.io/crud-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
