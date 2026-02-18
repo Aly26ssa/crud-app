@@ -77,6 +77,4 @@ npm run dev
 
 ## 📝 License
 
-Add a Todo: Type your task in the input field and click "Add Todo"
-Edit a Todo: Click the edit icon next to any todo, modify the text, and save or cancel
-Delete a Todo: Click the delete icon to remove a todo
+This project is open source and available under the [MIT License](LICENSE).
