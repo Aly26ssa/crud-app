@@ -1,6 +1,5 @@
 Todo CRUD Application
 A simple and intuitive Todo application built with React and TypeScript, featuring full CRUD (Create, Read, Update, Delete) functionality with local storage persistence.
-Features
 
 ## Screenshots
 
