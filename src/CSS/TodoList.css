@@ -63,6 +63,9 @@
 button {
   cursor: pointer;
   background: transparent;
+  border: none;
+  padding: 3px;
+  font-size: 1.25rem;
 }
 
 .editBtn {
