@@ -32,6 +32,17 @@ export const TodoService = {
         const todos = TodoService.getTodos();
         const updateTodos = todos.filter((todo) => todo.id !== id);
         localStorage.setItem(LOCAL_STOARAGE_KEY, JSON.stringify(updateTodos));
+    },
+
+    //Completed Todos
+    completeTodo: (id: number): TodoTypes => {
+        const todos = TodoService.getTodos();
+        const todo = todos.find(t => t.id === id);
+        if (todo) {
+            todo.completed = true;
+        }
+        localStorage.setItem(LOCAL_STOARAGE_KEY, JSON.stringify(todos));
+        return todo!;
     }
 
 }; 

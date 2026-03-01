@@ -25,8 +25,18 @@
 }
 
 .items:hover{
-  box-shadow: 1px 1px 6px -1px #FF734F;
+  box-shadow: 1px 1px 6px -1px gray;
   cursor: pointer;
+}
+
+.items.completed {
+  background-color: #e2fde6;
+  opacity: 0.8;
+}
+
+.items.completed span {
+  text-decoration: line-through;
+  color: #6c757d;
 }
 
 .editText {
@@ -41,11 +51,7 @@
 }
 
 .editText > button:nth-child(2) {
-  color: #a1eebd;
-}
-
-.editText > button:nth-child(3) {
-  color: #ef4040;
+  color: #49ec85;
 }
 
 .editText > input {
@@ -53,7 +59,7 @@
   border-radius: 50px;
   background: transparent;
   padding: 10px;
-  box-shadow: 1px 1px 5px -2px red;
+  box-shadow: 1px 1px 5px -2px gray;
   margin: 0 10px;
   width: 18vw;
 }
@@ -63,6 +69,9 @@
 button {
   cursor: pointer;
   background: transparent;
+  border: none;
+  padding: 3px;
+  font-size: 1.25rem;
 }
 
 .editBtn {
@@ -80,11 +89,20 @@ button {
 }
 
 .editBtn > button:nth-child(2) {
-  color: #a1eebd;
+  color: rgb(97, 192, 255);
 }
 
-.items > button {
+.completedBtn {
+  color: #49ec85;
+}
+
+.deleteBtn {
   color: red;
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
 }
 
 /* Scrollbar styles */
