@@ -58,13 +58,14 @@
 
 .inputForm button {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   padding: 10px 15px;
-  background: #FF734F;
+  background: rgb(97, 192, 255);
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 5px;
   margin-top: 10px;
+  color: white;
 }
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
