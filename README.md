@@ -4,7 +4,7 @@ A simple and intuitive Todo application built with React and TypeScript, featuri
 
 ## Screenshots
 
-<img width="1173" height="702" alt="image" src="https://github.com/user-attachments/assets/3904db11-08ec-4498-a4e8-b05be85b78ff" />
+<img width="1176" height="590" alt="image" src="https://github.com/user-attachments/assets/f94a06f7-a279-4d83-87d0-51bf50af9132" />
 
 ## Features
 
